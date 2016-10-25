@@ -18,7 +18,7 @@ window.App = {
 
     loadGoogleMapsLib: function (lat, lng) {
         var self = this;
-        var apiKey = 'AIzaSyDxQpFOyMKwQ-WgN_rE4512MnaONqD6bxQ';
+        var apiKey = '';
         var url = 'https://maps.googleapis.com/maps/api/js?key=' + apiKey + '&libraries=places,drawing,geometry,visualization';
 
         if (!window.mapLibLoaded) {
